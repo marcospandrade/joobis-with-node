@@ -1,0 +1,39 @@
+{
+  "name": "backend-joobis-analytics",
+  "version": "1.0.0",
+  "description": "Backend do Joobis Analytics usando o sequelize-cli para geração das tabelas do banco",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgres",
+    "sequelize-cli",
+    "nodejs",
+    "dotenv",
+    "JWT",
+    "bcryptjs"
+  ],
+  "author": "Marcos Andrade",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/leadfinderbr/backend-joobis-analytics.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.88.2",
+    "sequelize": "^6.3.3",
+    "sequelize-cli": "^6.2.0",
+    "swagger-ui-express": "^4.1.4"
+  }
+}
